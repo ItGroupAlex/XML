@@ -3,18 +3,18 @@
  21. Создать внешний репозиторий c названием XML.  
 	*создаем через веб-интерфейс репозиторий XML  
  22. Клонировать репозиторий XML на локальный компьютер.  
-	$ git clone git@github.com:ItGroupAlex/XML.git  
+	`$ git clone git@github.com:ItGroupAlex/XML.git`  
  23. Внутри локального XML создать файл “new.xml”.  
-	$ touch new.xml  
+	`$ touch new.xml`  
  24. Добавить файл под гит.  
-	$ git status  
-	$ git add .  
+	`$ git status`  
+	`$ git add .`  
  25. Закоммитить файл.  
-	$ git commit -m "Added file"  
+	`$ git commit -m "Added file"`  
  26. Отправить файл на внешний GitHub репозиторий.  
-	$ git push origin  
+	`$ git push origin`  
  27. Отредактировать содержание файла “new.xml” - написать информацию о себе (ФИО, возраст, количество домашних животных, будущая желаемая зарплата). Всё написать в формате XML.  
-	$ vim new.xml  
+	`$ vim new.xml`  
 	`*i`
 ```
 <xml>  
@@ -34,14 +34,14 @@
 	*:x  
 	*Enter    
  28. Отправить изменения на внешний репозиторий.  
-	$ git status  
-	$ git add .  
-	$ git commit -m "Redact new.json"  
-	$ git push origin  
+	`$ git status`  
+	`$ git add .`  
+	`$ git commit -m "Redact new.json"`  
+	`$ git push origin`  
  29. Создать файл preferences.xml  
-	$ touch preferences.xml  
+	`$ touch preferences.xml`  
  30. В файл preferences.xml добавить информацию о своих предпочтениях (Любимый фильм, любимый сериал, любимая еда, любимое время года, сторона которую хотели бы посетить) в формате XML.  
-	$ vim new.xml  
+	`$ vim new.xml`  
 	`*i`  
 ```
 <xml>  
@@ -61,7 +61,7 @@
 	*:x  
 	*Enter  
  31. Создать файл skils.xml добавить информацию о скиллах которые будут изучены на курсе в формате XML  
-	$ vim skils.xml  
+	`$ vim skils.xml`  
 	`*i`  
 ```
 <xml>  
@@ -79,11 +79,11 @@
 	*:x  
 	*Enter  
  32. Сделать коммит в одну строку.  
-	$ git status  
-	$ git add .  
-	$ git commit -m "Redact new.json"  
+	`$ git status`  
+	`$ git add .`  
+	`$ git commit -m "Redact new.json"`  
  33. Отправить сразу 2 файла на внешний репозиторий.  
-	$ git push origin  
+	`$ git push origin`  
  34. На веб интерфейсе создать файл bug_report.xml.  
  35. Сделать Commit changes (сохранить) изменения на веб интерфейсе.  
  36. На веб интерфейсе модифицировать файл bug_report.xml, добавить баг репорт в формате XML.  
@@ -104,5 +104,5 @@
 ```
  37. Сделать Commit changes (сохранить) изменения на веб интерфейсе.  
  38. Синхронизировать внешний и локальный репозиторий XML  
-	$ rm -rf xml  
-	$ git clone git@github.com:ItGroupAlex/XML.git  
+	`$ rm -rf xml`  
+	`$ git clone git@github.com:ItGroupAlex/XML.git`  
