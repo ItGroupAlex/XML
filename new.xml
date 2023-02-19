@@ -1,0 +1,12 @@
+<xml>
+	<?xml version="1.0" encoding="UTF-8"?>
+	
+<man="Alex">
+	<film>Список Шиндлера</film>
+	<name>Алексей Х.В.</name>
+	<age>38</age>
+	<pets>1</pets>
+	<salary>2000</salary>
+</man>
+
+</xml>
