@@ -1,0 +1,12 @@
+<xml>
+        <?xml version="1.0" encoding="UTF-8"?>
+
+<man="Alex">
+        <film>Список Шиндлера</film>
+        <serial>Побег</serial>
+        <food>Суши</food>
+        <season>Лето</season>
+        <country>Мальдивы</country>
+</man>
+
+</xml>
