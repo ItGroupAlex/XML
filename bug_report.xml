@@ -1,0 +1,13 @@
+<xml>
+        <?xml version="1.0" encoding="UTF-8"?>
+
+<bag="Login">
+        <id>1</id>
+        <Title>The buttom <Login> must redirect to login form</Title>
+        <ER>buttom <Login> must redirect to login form</ER>
+        <AR>error</AR>
+        <Severity>Critical</Severity>
+        <Priority>High</Priority>
+</bag>
+
+</xml>
