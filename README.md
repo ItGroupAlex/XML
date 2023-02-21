@@ -104,5 +104,4 @@
 ```
  17. Сделать Commit changes (сохранить) изменения на веб интерфейсе.  
  18. Синхронизировать внешний и локальный репозиторий XML  
-	`$ rm -rf xml`  
-	`$ git clone git@github.com:ItGroupAlex/XML.git`  
+	`$ git pull`  
